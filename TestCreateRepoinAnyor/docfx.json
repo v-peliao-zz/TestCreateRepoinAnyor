@@ -1,0 +1,38 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "TestCreateRepoinAnyor/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "TestCreateRepoinAnyor/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {},
+    "fileMetadata": {},
+    "template": [],
+    "dest": "TestCreateRepoinAnyor"
+  }
+}
